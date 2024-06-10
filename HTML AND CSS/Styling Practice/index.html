@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav bar</title>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+
+        .box {
+            width: 100vw;
+            height: 100vh;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            height: 60px;
+            background-color: #333
+        }
+
+        nav ul {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+            font-size: 1.5rem;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: whitesmoke;
+        }
+
+        .nav-list ul a:hover {
+            color: rgb(240, 10, 10);
+            background-color: white;
+            border: 2px white;
+            padding: 10px;
+            border-radius: 20px;
+            box-shadow: 10px 10px 20px rgba(128, 128, 128, 0.42);
+            transition: .5s;
+        }
+
+        .image {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh
+        }
+
+        footer {
+            height: 100%;
+            width: 100%;
+            background-color: #333;
+            color: white;
+            font-size: 1.5rem;
+            font-family: 'Times New Roman', Times, serif;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            
+        }
+
+
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="nav-bar">
+                <div class="nav-list">
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Services</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="image">
+        <img src="/Styling Practice/OIP.jfif" alt="" srcset="">
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-list">
+               &copy; 2024 | All right reserved
+
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
